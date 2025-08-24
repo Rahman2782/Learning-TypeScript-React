@@ -1,0 +1,25 @@
+.input {
+    display: flex;
+    width: 90%;
+    position: relative; /* the submit button will be in the search bar */
+    align-items: center;
+}
+
+.inputBar {
+    width: 100%;
+    padding: 10px 10px; /* expands the size of the input field visually */
+    border: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.inputBar:focus {
+    outline: none;
+    box-shadow: 0 0 0 20px #72abf6;
+}
+
+.inputSubmit {
+    position: absolute;
+    right: 0px;
+    margin: 12px;
+}
